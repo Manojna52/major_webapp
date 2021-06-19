@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Fault search</title>
+    <style>
+         .f-jmbo
+        {
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('static/use2.jpg');
+        background-size : 125%,125% ;  
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="jumbotron f-jmbo">
+            
+        <h1 class="text-white">Fault Search</h1>
+        <p class="text-white"></p>
+        <p class="text-white">Fault search is a new age fault classification web app which is used to classify the faults and find the distance of faults</p>
+        <p class="lead">
+            <p class="text-white">
+            In an electric power system, a fault or fault current is any abnormal electric current. For example, a short circuit is a fault in which current bypasses the normal load. An open-circuit fault occurs if a circuit is interrupted by some failure. In three-phase systems, a fault may involve one or more phases and ground, or may occur only between phases. In a "ground fault" or "earth fault", current flows into the earth. The prospective short-circuit current of a predictable fault can be calculated for most situations. In power systems, protective devices can detect fault conditions and operate circuit breakers and other devices to limit the loss of service due to a failure.
+
+            In a polyphase system, a fault may affect all phases equally which is a "symmetric fault". If only some phases are affected, the resulting "asymmetric fault" becomes more complicated to analyse. The analysis of these types of faults is often simplified by using methods such as symmetrical components.
+        </p>
+    
+        </p>
+        </div>
+    
+<h1 class="text-center">ENTER THE VALUES OF VOLTAGES AND CURRENTS</h1>
+<div class="container">
+<form method="POST">
+    <div class="form-row">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Phase voltage Va" name="va">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Phase voltage Vb" name="vb">
+      </div>
+    </div>
+    <div class="form-row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Phase voltage Vc" name="vc">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Phase current Ia" name="ia">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Phase current Ib" name="ib">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Phase current Ic" name="ic">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-secondary btn-lg">SUBMIT</button>
+  </form>
+  </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
